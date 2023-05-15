@@ -1,5 +1,5 @@
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Maitree', serif;
     text-align: center;
     margin: 0;
     
@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 370px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,6 +24,7 @@ body {
     background: #293131;
     color: #ffffff;
     padding: 4px 12px 4px 12px;
+    border: 1px solid #AA727A;
     border-radius: 10px;
     margin-bottom: 0;
 }
@@ -31,6 +33,13 @@ body {
     background: #2C4932;
     color: #ffffff;
     padding: 4px 15px 4px 15px;
+    border: 1px solid #AA727A;
     border-radius: 10px;
     margin-top: 15px;
+    max-width: 400px;
+}
+
+.activity {
+    margin-top: 0;
+    background: #8680AE;
 }
