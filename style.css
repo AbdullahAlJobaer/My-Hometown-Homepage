@@ -45,9 +45,26 @@ body {
 .activities {
     display: flex;
     justify-content: space-around;
+    margin: 8px auto;
 }
 
 .acts img {
-    width: 100px;
+    width: 90px;
     border-radius: 50%;
+}
+
+.acts {
+    padding: 8px;
+    max-width: 320px;
+}
+
+
+/* utility */
+
+.font-16 {
+    font-size: 16;
+}
+
+.font-24 {
+    font-size: 24;
 }
