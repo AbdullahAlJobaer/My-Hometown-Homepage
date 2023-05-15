@@ -1,0 +1,29 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    
+}
+
+
+
+.header {
+    background-image: url("images/intro.jpg");
+    background-size: cover;
+    background-position: center;
+    
+    height: 370px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+.town-title {
+    background: #AA727A;
+    color: #ffffff;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+}
