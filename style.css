@@ -78,3 +78,40 @@ body {
 .font-24 {
     font-size: 24;
 }
+
+
+/* Guide */
+
+.guide-section {
+    
+    background: #cdcdcd;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: #81a186;
+    margin: 50px auto;
+    height: 300px;
+    width: 500px;
+    padding: 30px;
+    border: 2px solid #293131;
+    border-radius: 20px;
+    box-shadow: 0px 10px #293131;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pic {
+    background-image: url("images/guide.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 180px;
+    margin: 10px auto;
+}
