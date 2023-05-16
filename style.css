@@ -84,34 +84,54 @@ body {
 
 .guide-section {
     
+    
     background: #cdcdcd;
+    /*
     height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    */
+    padding: 16px;
 }
 
 .card {
     background: #81a186;
+    max-width: 450px;
     margin: 50px auto;
-    height: 300px;
-    width: 500px;
-    padding: 30px;
+    padding: 32px;
     border: 2px solid #293131;
     border-radius: 20px;
-    box-shadow: 0px 10px #293131;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    box-shadow: 0px 10px #293131;
 }
 
-.pic {
+.card:hover {
+    box-shadow: 0px 15px #293131;
+    transform: scale(1.02);
+    transition: box-shadow 300ms, transform 400ms;
+}
+
+.card-pic {
     background-image: url("images/guide.JPG");
     background-size: cover;
     background-position: center;
-    height: 300px;
+    margin-right: 16px;
+    height: 250px;
     width: 180px;
-    margin: 10px auto;
+    border: 3px solid #394e31;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.info {
+    margin-inline-start: auto;
+    width: 200px;
+}
+
+.info p {
+    font-style: italic;
+    color: #2C4932;
 }
