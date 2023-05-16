@@ -51,7 +51,7 @@ body {
 }
 
 .acts img {
-    width: 98px;
+    width: 100px;
     border-radius: 50%;
     border: 2px solid #2C4932;
 }
@@ -59,9 +59,7 @@ body {
 .acts img:hover {
     border: 3px solid #579162;
     transform: scale(1.2);
-    transition: transform 350ms, border 100ms;
-    cursor: pointer;
-    
+    transition: transform 350ms, border 100ms;    
 }
 
 
